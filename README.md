@@ -1,12 +1,12 @@
 # Cryptocurrencies
 
 ## Project Overview
-This analysis provides a summary of various cryptocurrencies for the client, Accountability Accounting conducting using unsupervised machine learning. The goal of the analysis was to select out from the dataset the cryptocurrencies considered viable according to set criteria and then to classify the currencies.
+This analysis provides a summary of the investement vaibility of various cryptocurrencies based on previous performance for a hypotheical client, Accountability Accounting. The analysis is conducting using unsupervised machine learning. The goal of the analysis was to select out from the dataset the cryptocurrencies considered viable according to set criteria and then to classify the currencies by their performance.
 
-## Resources
-
-- Data Source: crypto_data.csv, retrieved from CryptoCompare
-- Tools: Python with Pandas, SKLearn, Plotly, and hvPlot dependencies; Jupyter Notebook
+## Tools Used
+- **Language:** Python with Pandas
+- **Dependencies:** SKLearn, Plotly, hvPlot dependencies
+- **Environment:** Jupyter Notebook
 
 ## Summary
 
@@ -25,3 +25,6 @@ Because of the number of variables, which was made especially large because of t
 After the dimensions had been reduced, the machine learning algorithm could be put into effect. The primary goal of this project was to classify the different cryptocurrencies. As such, it became necessary to decide what the most appropriate number of clusters would be. Plotting the inertia against the numnber of clusters (K) revealed the "elbow" on the Elbow Curve to be at four clusters.
 
 The cryptocurrencies were then fit into the model and clustered into the four classes. Various visualizations, as presented in the ./Plots folder and within the Juypter Notebook file itself, were generated to demonstrate how the cryptocurrencies clusters have commonality.
+
+## Data Sources
+crypto_data.csv, retrieved from CryptoCompare
